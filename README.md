@@ -89,15 +89,7 @@ The CSV file should contain the following columns:
 - `timestamp`: A timestamp indicating the time of the data entry.
 - `id`: A unique identifier for each time series.
 - `feature_...`: Columns representing different features.
-
-**Example CSV:**
-
-```csv
-timestamp,id,feature_1,feature_2 ...
-2024-01-01 00:00:00,1,0.5,0.2
-2024-01-01 00:01:00,1,0.6,0.3
-...
-```
+- Refer to test_case.csv for an example
 
 ### Feature Extraction
 
